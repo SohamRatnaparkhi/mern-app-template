@@ -1,8 +1,8 @@
 {
-  "name": "cra-template-mern-stack-app",
-  "version": "1.0.0",
-  "description": "Template for MERN stack apps",
-  "main": "./",
+  "name": "cra-template-mern-app",
+  "version": "1.0.1",
+  "description": "MERN stack template",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -12,11 +12,11 @@
   },
   "keywords": [
     "mern-stack",
-    "react-js",
-    "node-js",
-    "express-js"
+    "reactjs",
+    "nodejs",
+    "expressjs"
   ],
-  "author": "soham_r",
+  "author": "Soham Ratnaparkhi",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/SohamRatnaparkhi/mern-app-template/issues"
