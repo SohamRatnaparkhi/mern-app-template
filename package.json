@@ -1,15 +1,14 @@
 {
-  "name": "cra-template-create-mern-stack-app",
-  "version": "1.0.1",
+  "name": "cra-template-mern-stack-app",
+  "version": "1.0.0",
   "description": "Template for MERN stack apps",
   "main": "./",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "set-project" : "node_modules/create-mern-stack-app/backend/ ./ && node_modules/create-mern-stack-app/frontend/ ./ && rm -rf node_modules && rm package-lock.json package.json"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/SohamRatnaparkhi/mern-app-template"
+    "url": "git+https://github.com/SohamRatnaparkhi/mern-app-template.git"
   },
   "keywords": [
     "mern-stack",
@@ -18,5 +17,9 @@
     "express-js"
   ],
   "author": "soham_r",
-  "license": "MIT"
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SohamRatnaparkhi/mern-app-template/issues"
+  },
+  "homepage": "https://github.com/SohamRatnaparkhi/mern-app-template#readme"
 }
